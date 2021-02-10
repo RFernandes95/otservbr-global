@@ -50,8 +50,12 @@ local function startTraining(playerId, startPosition, itemid, tilePosition, bonu
                         if exercise:hasAttribute(ITEM_ATTRIBUTE_CHARGES) then
                             local charges_n = exercise:getAttribute(ITEM_ATTRIBUTE_CHARGES)
                             if charges_n >= 1 then
-                                exercise:setAttribute(ITEM_ATTRIBUTE_CHARGES,(charges_n-1))
-
+								if itemid < 40120 then
+									exercise:setAttribute(ITEM_ATTRIBUTE_CHARGES,(charges_n-1))
+								else
+									exercise:setAttribute(ITEM_ATTRIBUTE_CHARGES,(charges_n))
+								end
+								
                                 local voc = player:getVocation()
 
                                 if skills[itemid].id == SKILL_MAGLEVEL then

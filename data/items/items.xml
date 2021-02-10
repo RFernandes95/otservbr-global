@@ -39095,13 +39095,13 @@
 	</item>
 	<item id="28585" article="a" name="strong mana potion keg">
 		<attribute key="charges" value="500" />
-		<attribute key="description" value="This keg can be used to refill great mana potions." />
+		<attribute key="description" value="This keg can be used to refill strong mana potions." />
 		<attribute key="weight" value="12500" />
 		<attribute key="wrapableTo" value="26054" />
 	</item>
 	<item id="28586" article="a" name="great mana potion keg">
 		<attribute key="charges" value="500" />
-		<attribute key="description" value="This keg can be used to refill strong mana potions." />
+		<attribute key="description" value="This keg can be used to refill great mana potions." />
 		<attribute key="weight" value="12500" />
 		<attribute key="wrapableTo" value="26054" />
 	</item>
@@ -39510,28 +39510,28 @@
 	<item id="29057" article="a" name="diamond arrow">
 		<attribute key="weight" value="80" />
 		<attribute key="attack" value="37" />
-		<attribute key="decayTo" value="0" />
-		<attribute key="duration" value="3600" />
+		<!-- <attribute key="decayTo" value="0" /> -->
+		<!-- <attribute key="duration" value="3600" /> -->
 		<attribute key="weaponType" value="ammunition" />
 		<attribute key="loottype" value="ammo" />
 		<attribute key="ammoType" value="arrow" />
 		<attribute key="shootType" value="diamondarrow" />
 		<attribute key="maxHitChance" value="100" />
-		<attribute key="stopduration" value="1" />
-		<attribute key="showduration" value="1" />
+		<!-- <attribute key="stopduration" value="1" /> -->
+		<!-- <attribute key="showduration" value="1" /> -->
 	</item>
 	<item id="29058" article="a" name="spectral bolt">
 		<attribute key="weight" value="90" />
 		<attribute key="attack" value="78" />
-		<attribute key="decayTo" value="0" />
-		<attribute key="duration" value="3600" />
+		<!-- <attribute key="decayTo" value="0" /> -->
+		<!-- <attribute key="duration" value="3600" /> -->
 		<attribute key="weaponType" value="ammunition" />
 		<attribute key="loottype" value="ammo" />
 		<attribute key="ammoType" value="bolt" />
 		<attribute key="shootType" value="spectralbolt" />
 		<attribute key="maxHitChance" value="100" />
-		<attribute key="stopduration" value="0" />
-		<attribute key="showduration" value="1" />
+		<!-- <attribute key="stopduration" value="0" /> -->
+		<!-- <attribute key="showduration" value="1" /> -->
 	</item>
 	<item id="29059" article="a" name="royal star">
 		<attribute key="weight" value="220" />
@@ -51801,34 +51801,40 @@
 		<attribute key="showcharges" value="1" />
 		<attribute key="weight" value="1000" />
 	</item>
-	<item id="40120" article="an" name="lasting exercise sword">
+	<item id="40120" article="an" name="infinite exercise sword">
+		 <attribute key="charges" value="14400" />
+		 <attribute key="showcharges" value="0" />
+		 <attribute key="description" value="This sword has infinite charges. It will never break." />
+		 <attribute key="weight" value="1000" />
+	</item>
+	<item id="40121" article="an" name="infinite exercise axe">
 		<attribute key="charges" value="14400" />
-		<attribute key="showcharges" value="1" />
+		<attribute key="showcharges" value="0" />
+		<attribute key="description" value="This axe has infinite charges. It will never break." />
 		<attribute key="weight" value="1000" />
 	</item>
-	<item id="40121" article="an" name="lasting exercise axe">
+	<item id="40122" article="an" name="infinite exercise club">
 		<attribute key="charges" value="14400" />
-		<attribute key="showcharges" value="1" />
+		<attribute key="showcharges" value="0" />
+		<attribute key="description" value="This club has infinite charges. It will never break." />
 		<attribute key="weight" value="1000" />
 	</item>
-	<item id="40122" article="an" name="lasting exercise club">
+	<item id="40123" article="an" name="infinite exercise bow">
 		<attribute key="charges" value="14400" />
-		<attribute key="showcharges" value="1" />
+		<attribute key="showcharges" value="0" />
+		<attribute key="description" value="This bow has infinite charges. It will never break." />
 		<attribute key="weight" value="1000" />
 	</item>
-	<item id="40123" article="an" name="lasting exercise bow">
+	<item id="40124" article="an" name="infinite exercise rod">
 		<attribute key="charges" value="14400" />
-		<attribute key="showcharges" value="1" />
+		<attribute key="showcharges" value="0" />
+		<attribute key="description" value="This rod has infinite charges. It will never break." />
 		<attribute key="weight" value="1000" />
 	</item>
-	<item id="40124" article="an" name="lasting exercise rod">
+	<item id="40125" article="an" name="infinite exercise wand">
 		<attribute key="charges" value="14400" />
-		<attribute key="showcharges" value="1" />
-		<attribute key="weight" value="1000" />
-	</item>
-	<item id="40125" article="an" name="lasting exercise wand">
-		<attribute key="charges" value="14400" />
-		<attribute key="showcharges" value="1" />
+		<attribute key="showcharges" value="0" />
+		<attribute key="description" value="This wand has infinite charges. It will never break." />
 		<attribute key="weight" value="1000" />
 	</item>
 	<item id="40349" article="a" name="jungle flail">
